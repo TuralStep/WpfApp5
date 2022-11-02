@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8-basket-48.png" />
+    <None Remove="icons8-wish-list-48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-basket-48.png" />
+    <Resource Include="icons8-wish-list-48.png" />
+  </ItemGroup>
+
+</Project>
